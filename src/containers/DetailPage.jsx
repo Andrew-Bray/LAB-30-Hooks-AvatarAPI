@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getOneCharacter } from '../services/fetchAPI'
+import { getOneCharacter } from '../services/fetchAPI';
 import PropTypes from 'prop-types';
 import DetailedCharacter from '../components/details/DetailedCharacter';
 
@@ -8,7 +8,6 @@ const DetailPage = ({ match }) => {
   const [character, setCharacter] = useState([]);
 
   useEffect(() => {
-    console.log(match);
     getOneCharacter(match.params.id).then((character) => {
       setCharacter(character);
       setLoading(false);

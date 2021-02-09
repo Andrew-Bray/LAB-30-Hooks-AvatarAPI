@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { render, screen, waitFor } from '@testing-library/react';
 import ListPage from './ListPage';
 

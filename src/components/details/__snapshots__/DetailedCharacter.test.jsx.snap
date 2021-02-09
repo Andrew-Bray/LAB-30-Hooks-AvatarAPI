@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailedCharacter Snapshot matches a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Detailed"
+    id="fnrivnvkfmnfgknvdfn436"
+  >
+    <figure
+      data-testid="one-character"
+    >
+      <img
+        src="http://image.com"
+      />
+      <figcaption>
+        Billy
+      </figcaption>
+    </figure>
+  </div>
+</DocumentFragment>
+`;

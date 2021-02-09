@@ -1,0 +1,17 @@
+.Detailed {
+  background-color: rgb(255, 220, 125);
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  max-width: 400px;
+  border-radius: 5%;
+  figure {
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  }
+  figcaption {
+    text-align: center;
+  }
+};

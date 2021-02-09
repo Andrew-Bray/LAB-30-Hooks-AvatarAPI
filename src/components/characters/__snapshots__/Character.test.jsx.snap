@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character Snapshot matches a snapshot 1`] = `
+<DocumentFragment>
+  <figure
+    class="Character"
+  >
+    <img
+      src="http://image.com"
+    />
+    <figcaption>
+      Billy
+    </figcaption>
+  </figure>
+</DocumentFragment>
+`;

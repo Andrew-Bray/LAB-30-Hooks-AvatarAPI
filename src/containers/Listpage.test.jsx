@@ -10,6 +10,8 @@ describe('ListPage container', () => {
         <ListPage />
       </Router>);
 
+    screen.getByText('Loading');
+
     const ul = await screen.findByTestId('characters');
 
     return waitFor(() => {
